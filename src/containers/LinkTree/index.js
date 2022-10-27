@@ -7,6 +7,7 @@ import GithubIcon from "assets/github.svg";
 function LinkTree() {
   return (
     <main>
+      {/* profile section */}
       <section className="profile">
         <img src={profileImage} alt="user" id="profile__img" />
         <p id="twitter">@thisKehinde</p>
@@ -15,6 +16,7 @@ function LinkTree() {
         {/* <p id="slack">kennybabs</p> */}
       </section>
 
+      {/* links to services */}
       <section className="link">
         <a
           href="https://training.zuri.team/"
@@ -60,6 +62,7 @@ function LinkTree() {
         </a>
       </section>
 
+      {/* slack and github logos */}
       <section className="logos">
         <img src={SlackIcon} alt="slack" />
         <img src={GithubIcon} alt="github" />
