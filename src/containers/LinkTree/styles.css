@@ -15,6 +15,24 @@ section {
   box-sizing: border-box;
 }
 
+section.back {
+  display: block;
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+section.back a {
+  display: block;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #d0d5dd;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
 section.profile img {
   display: block;
   width: 88px;

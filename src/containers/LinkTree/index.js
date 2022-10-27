@@ -3,17 +3,26 @@ import "./styles.css";
 import profileImage from "assets/profile_img.webp";
 import SlackIcon from "assets/slack.svg";
 import GithubIcon from "assets/github.svg";
+import BackIcon from "assets/BackIcon.svg";
 
 function LinkTree() {
   return (
     <main>
+      <section className="back">
+        <a href="/" target="_blank" rel="noopener noreferrer">
+          <img src={BackIcon} alt="back" />
+        </a>
+      </section>
+
       {/* profile section */}
       <section className="profile">
         <img src={profileImage} alt="user" id="profile__img" />
-        <p id="twitter">@thisKehinde</p>
+        <p id="twitter">Kehinde Babalola</p>
 
         {/* slack username */}
-        {/* <p id="slack">kennybabs</p> */}
+        <p id="slack" hidden>
+          kennybabs
+        </p>
       </section>
 
       {/* links to services */}
