@@ -1,5 +1,5 @@
 import "./App.css";
-import LinkTree from "./containers/LinkTree";
+import LinkTree from "containers/LinkTree";
 
 function App() {
   return (
