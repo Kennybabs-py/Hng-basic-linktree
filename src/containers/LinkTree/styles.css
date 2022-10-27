@@ -12,12 +12,8 @@ main {
 
 section {
   width: 100%;
-  border: 1px solid black;
   box-sizing: border-box;
 }
-
-/* section.profile {
-} */
 
 section.profile img {
   display: block;
@@ -36,7 +32,13 @@ section.profile #twitter,
 }
 
 section.link {
-  margin: 3.5rem 0 0;
+  margin: 2rem 0 0;
+}
+
+@media (min-width: 1024px) {
+  section.link {
+    margin: 3.5rem 0 0;
+  }
 }
 
 section.link > a {
@@ -73,6 +75,7 @@ section.link #books {
 
 section.link #books > h2,
 p {
+  font-weight: 500;
   font-size: 1.125rem;
 }
 

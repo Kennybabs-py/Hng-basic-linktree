@@ -10,9 +10,9 @@ function LinkTree() {
       <section className="profile">
         <img src={profileImage} alt="user" id="profile__img" />
         <p id="twitter">@thisKehinde</p>
-        <p id="slack">
-          <code>kennybabs</code>
-        </p>
+
+        {/* slack username */}
+        {/* <p id="slack">kennybabs</p> */}
       </section>
 
       <section className="link">
