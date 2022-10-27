@@ -1,14 +1,18 @@
 footer {
   width: 100%;
+  border: 1px solid black;
+  margin: 4rem auto 0;
+  padding: 2rem 0;
 }
 
 footer > section.container {
   width: 95%;
   max-width: 1280px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1rem 0;
 }
 
 footer > section.container span {
@@ -21,6 +25,7 @@ footer > section.container span {
     width: 95%;
     max-width: 1280px;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 }
