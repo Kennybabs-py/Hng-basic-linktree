@@ -1,5 +1,7 @@
 import Input from "components/Input";
 import InputLabel from "components/Label";
+import Textarea from "components/Textarea";
+
 import "./styles.scss";
 
 function ContactMe() {
@@ -48,7 +50,10 @@ function ContactMe() {
             />
           </div>
 
-          <div className="message__box"></div>
+          <div className="message__box">
+            <InputLabel htmlFor="message" content="Message" />
+            <Textarea />
+          </div>
         </form>
       </section>
     </main>
