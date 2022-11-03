@@ -52,8 +52,21 @@ function ContactMe() {
 
           <div className="message__box">
             <InputLabel htmlFor="message" content="Message" />
+
             <Textarea />
           </div>
+
+          {/* <div className="checkbox__box">
+            <input type="checkbox" name="agreement" id="agreement" />
+            <InputLabel
+              htmlFor="agreement"
+              content="You agree to provide your data to Kehinde Babalola who may contact you."
+            />
+          </div> */}
+
+          <button type="submit" id="btn__submit">
+            Send message
+          </button>
         </form>
       </section>
     </main>

@@ -36,29 +36,56 @@ main.contact__me {
     @include border;
   }
 
-  .names__box {
+  & > form {
     width: 100%;
-    @include flex(flex-start, flex-start, column);
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
 
-    @include mediaMin(tablet) {
-      flex-flow: row;
-    }
-
-    & > div {
+    .names__box {
       width: 100%;
-      max-width: 343px;
+      @include flex(flex-start, flex-start, column);
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
 
       @include mediaMin(tablet) {
+        flex-flow: row;
+      }
+
+      & > div {
         width: 100%;
-        max-width: 348px;
+        max-width: 343px;
+
+        @include mediaMin(tablet) {
+          width: 100%;
+          max-width: 348px;
+        }
       }
     }
-  }
 
-  .email__box {
-    width: 100%;
-    margin-bottom: 1.5rem;
+    .email__box {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .message__box {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .checkbox__box {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    button#btn__submit {
+      display: block;
+      width: 100%;
+      height: 48px;
+      background: $color-600;
+      border: transparent;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #ffffff;
+    }
   }
 }
