@@ -53,16 +53,20 @@ function ContactMe() {
           <div className="message__box">
             <InputLabel htmlFor="message" content="Message" />
 
-            <Textarea />
+            <Textarea
+              id="message"
+              name="message"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
+            />
           </div>
 
-          {/* <div className="checkbox__box">
-            <input type="checkbox" name="agreement" id="agreement" />
+          <div className="checkbox__box">
+            <Input type="checkbox" name="agreement" id="agreement" />
             <InputLabel
               htmlFor="agreement"
               content="You agree to provide your data to Kehinde Babalola who may contact you."
             />
-          </div> */}
+          </div>
 
           <button type="submit" id="btn__submit">
             Send message

@@ -5,8 +5,6 @@ main.contact__me {
   width: 95%;
   max-width: 720px;
   margin: 4rem auto 4rem;
-  @include border;
-  min-height: 400px;
 
   @include mediaMin(tablet) {
     margin: 10rem auto 12rem;
@@ -33,10 +31,9 @@ main.contact__me {
   & > .form__container {
     width: 100%;
     margin: 3rem 0 0;
-    @include border;
   }
 
-  & > form {
+  form {
     width: 100%;
 
     .names__box {
@@ -51,7 +48,7 @@ main.contact__me {
 
       & > div {
         width: 100%;
-        max-width: 343px;
+        // max-width: 343px;
 
         @include mediaMin(tablet) {
           width: 100%;
@@ -72,11 +69,16 @@ main.contact__me {
 
     .checkbox__box {
       width: 100%;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      @include flex(flex-start, flex-start, row);
+      gap: 0.75rem;
+
+      & > label {
+        margin: 0;
+      }
     }
 
-    button#btn__submit {
-      display: block;
+    #btn__submit {
       width: 100%;
       height: 48px;
       background: $color-600;
@@ -86,6 +88,11 @@ main.contact__me {
       font-weight: 600;
       font-size: 1rem;
       color: #ffffff;
+      cursor: pointer;
+
+      & :hover {
+        opacity: 0.8;
+      }
     }
   }
 }
