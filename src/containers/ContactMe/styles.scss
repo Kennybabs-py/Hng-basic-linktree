@@ -1,0 +1,14 @@
+@use "styles/variables" as *;
+@use "styles/mixins" as *;
+
+main.contact__me {
+  width: 95%;
+  max-width: 720px;
+  margin: 4rem auto 0;
+  @include border;
+  min-height: 400px;
+
+  @include mediaMin(tablet) {
+    margin: 10rem auto 0;
+  }
+}
