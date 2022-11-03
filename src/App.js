@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import LinkTree from "containers/LinkTree";
 import Footer from "containers/Footer";
 import { routes } from "routes";
 
