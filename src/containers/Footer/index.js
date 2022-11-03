@@ -1,4 +1,5 @@
-import "./styles.css";
+import "./styles.scss";
+
 import zuri_logo from "assets/zuri_logo.svg";
 import I4G_logo from "assets/I4G.svg";
 
