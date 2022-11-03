@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 
 import profileImage from "assets/profile_img.webp";
 import SlackIcon from "assets/slack.svg";
@@ -7,7 +7,7 @@ import BackIcon from "assets/BackIcon.svg";
 
 function LinkTree() {
   return (
-    <main>
+    <main className="linktree">
       <section className="back">
         <a href="/" target="_blank" rel="noopener noreferrer">
           <img src={BackIcon} alt="back" />
