@@ -11,4 +11,22 @@ main.contact__me {
   @include mediaMin(tablet) {
     margin: 10rem auto 0;
   }
+
+  & > section.header {
+    h2 {
+      font-weight: 600;
+      font-size: 2.25rem;
+      color: $color-100;
+      margin-bottom: 1rem;
+
+      @include mediaMin(tablet) {
+        margin-bottom: 1.25rem;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: $color-400;
+    }
+  }
 }
