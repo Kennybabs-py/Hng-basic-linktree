@@ -9,7 +9,13 @@ function App() {
     <>
       <Routes>
         {routes.map((route) => {
-          return <Route path={route.id} element={<route.Component />} />;
+          return (
+            <Route
+              key={route.id}
+              path={route.path}
+              element={<route.Component />}
+            />
+          );
         })}
       </Routes>
 
