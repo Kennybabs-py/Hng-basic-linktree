@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.scss";
 
 import profileImage from "assets/profile_img.webp";
@@ -71,9 +72,16 @@ function LinkTree() {
           Get your copy of Zuri's limited edition book on design
         </a>
 
-        <a href="/contact" rel="noopener noreferrer" id="contact">
-          Contact me
-        </a>
+        <Link to="/contact">
+          <a
+            href="/contact"
+            rel="noopener noreferrer"
+            id="contact"
+            style={{ textDecoration: "none" }}
+          >
+            Contact me
+          </a>
+        </Link>
       </section>
 
       {/* slack and github logos */}
