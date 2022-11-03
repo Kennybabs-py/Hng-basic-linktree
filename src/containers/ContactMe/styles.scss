@@ -4,12 +4,12 @@
 main.contact__me {
   width: 95%;
   max-width: 720px;
-  margin: 4rem auto 12rem;
+  margin: 4rem auto 4rem;
   @include border;
   min-height: 400px;
 
   @include mediaMin(tablet) {
-    margin: 10rem auto 4rem;
+    margin: 10rem auto 12rem;
   }
 
   & > section.header {
