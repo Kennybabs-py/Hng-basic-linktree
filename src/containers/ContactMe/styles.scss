@@ -29,4 +29,32 @@ main.contact__me {
       color: $color-400;
     }
   }
+
+  & > .form__container {
+    width: 100%;
+    margin: 3rem 0 0;
+    @include border;
+    min-height: 400px;
+  }
+
+  .names__box {
+    width: 100%;
+    @include flex(flex-start, flex-start, column);
+    @include border;
+    gap: 1.5rem;
+
+    @include mediaMin(tablet) {
+      flex-flow: row;
+    }
+
+    & > div {
+      width: 100%;
+      max-width: 343px;
+
+      @include mediaMin(tablet) {
+        width: 100%;
+        max-width: 348px;
+      }
+    }
+  }
 }
