@@ -34,7 +34,6 @@ main.contact__me {
     width: 100%;
     margin: 3rem 0 0;
     @include border;
-    min-height: 400px;
   }
 
   .names__box {
@@ -42,6 +41,7 @@ main.contact__me {
     @include flex(flex-start, flex-start, column);
     @include border;
     gap: 1.5rem;
+    margin-bottom: 1.5rem;
 
     @include mediaMin(tablet) {
       flex-flow: row;
@@ -56,5 +56,10 @@ main.contact__me {
         max-width: 348px;
       }
     }
+  }
+
+  .names__box {
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 }

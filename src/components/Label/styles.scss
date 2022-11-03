@@ -1,0 +1,11 @@
+@use "styles/variables" as *;
+@use "styles/mixins" as *;
+
+label {
+  display: inline-block;
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: $color-500;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
