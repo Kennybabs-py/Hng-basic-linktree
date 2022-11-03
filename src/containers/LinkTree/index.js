@@ -35,6 +35,7 @@ function LinkTree() {
         >
           Zuri Team
         </a>
+
         <a
           href="https://training.zuri.team/"
           target="_blank"
@@ -68,6 +69,10 @@ function LinkTree() {
           id="book__design"
         >
           Get your copy of Zuri's limited edition book on design
+        </a>
+
+        <a href="/contact" rel="noopener noreferrer" id="contact">
+          Contact me
         </a>
       </section>
 
