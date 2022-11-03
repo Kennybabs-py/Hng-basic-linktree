@@ -24,7 +24,7 @@ footer > section.container {
   & > span {
     font-size: 1rem;
     font-weight: 400;
-    color: #667085;
+    color: $color-200;
 
     @include mediaMin(tablet) {
       font-size: 0.875rem;
