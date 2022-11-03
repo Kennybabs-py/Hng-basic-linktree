@@ -72,16 +72,7 @@ function LinkTree() {
           Get your copy of Zuri's limited edition book on design
         </a>
 
-        <Link to="/contact">
-          <a
-            href="/contact"
-            rel="noopener noreferrer"
-            id="contact"
-            style={{ textDecoration: "none" }}
-          >
-            Contact me
-          </a>
-        </Link>
+        <Link to="/contact">Contact me</Link>
       </section>
 
       {/* slack and github logos */}
