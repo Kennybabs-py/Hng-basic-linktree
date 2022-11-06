@@ -72,7 +72,7 @@ function LinkTree() {
           Get your copy of Zuri's limited edition book on design
         </a>
 
-        <Link to="/contact">Contact me</Link>
+        <Link to="/contact" id='contact'>Contact me</Link>
       </section>
 
       {/* slack and github logos */}

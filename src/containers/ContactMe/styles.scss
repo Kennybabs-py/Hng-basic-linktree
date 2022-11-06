@@ -93,6 +93,19 @@ main.contact__me {
       & :hover {
         opacity: 0.8;
       }
+
+      &[disabled] {
+        background: #b2ddff;
+      }
+    }
+
+    .error_message {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      color: #f83f23;
+      margin-top: 6px;
     }
   }
 }
