@@ -32,7 +32,7 @@ export default function ContactMe() {
         <form>
           <div className="names__box">
             <div>
-              <InputLabel htmlFor="firstName" content="First name" />
+              <InputLabel htmlFor="first_name" content="First name" />
 
               <Input
                 type="text"
@@ -45,7 +45,7 @@ export default function ContactMe() {
             </div>
 
             <div>
-              <InputLabel htmlFor="lastName" content="Last name" />
+              <InputLabel htmlFor="last_name" content="Last name" />
 
               <Input
                 type="text"
